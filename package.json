@@ -1,7 +1,25 @@
 {
   "name": "angular8-training",
   "version": "0.0.0",
-  
+  "private": true,
+  "dependencies": {
+    "rxjs": "~6.4.0",
+    "tslib": "^1.9.0",
+    "core-js": "2.6.9",
+    "zone.js": "~0.9.1",
+    "jasmine-core": "2.99.1",
+    "@angular/core": "~8.1.0",
+    "@angular/forms": "~8.1.0",
+    "@angular/common": "~8.1.0",
+    "@angular/router": "~8.1.0",
+    "jasmine-marbles": "0.6.0",
+    "@angular/compiler": "~8.1.0",
+    "web-animations-js": "2.3.2",
+    "@angular/animations": "~8.1.0",
+    "@angular/platform-browser": "~8.1.0",
+    "angular-in-memory-web-api": "0.8.0",
+    "@angular/platform-browser-dynamic": "~8.1.0"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,25 +27,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
-  },
-"private": true,
-  "dependencies": {
-    "rxjs": "~6.4.0",
-    "tslib": "^1.9.0",
-    "zone.js": "~0.9.1"
-
-    "@angular/core": "~8.1.0",
-
-    "@angular/forms": "~8.1.0",
-    "@angular/common": "~8.1.0",
-    "@angular/router": "~8.1.0",
-    "@angular/compiler": "~8.1.0",
-
-
-    "@angular/platform-browser": "~8.1.0",
-    "@angular/platform-browser-dynamic": "~8.1.0",
-
-    "@angular/animations": "~8.1.0",
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.801.0",
